@@ -1,0 +1,31 @@
+Los tres colores utilizados para el estilo son:
+
+
+    Primary color -> Cyan #4FE3E7
+
+    Dark Primary Color -> Gris #504044
+
+    Accent Color-> Rojo #FF4B4B
+
+
+colors.xml para el theme
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4FE3E7</color>
+    <color name="colorPrimaryDark">#504044</color>
+    <color name="colorAccent">#FF4B4B</color>
+</resources>
+
+styles.xml para eñ theme
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
